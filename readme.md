@@ -3,6 +3,6 @@
 # ORNEK OLARAK KODLADIM
 
 # Yöncü Üzerinden Sunucunuzu APİ Sayesinde Kendi Panelinizi Oluşturabilir
-# Komut Yollıyabilirsiniz veya Kendinize Ait Panel Oluşturabilirsiniz Kodlarım Sayesinde
-# Örnek Olarak Kodladım.
+# Komut Yollıyabilirsiniz veya Kendinize Ait Panel Oluşturabilirsiniz.
+# Sizin İçin Örnek Olarak Kodladım.
 
