@@ -3,6 +3,7 @@
 // APİ KULLANMAK İÇİN YÖNCÜ HESABINIZDAN İP ADRESİNİZİ TANIMLAMANIZ GEREKMEKTEDİR.
 // APİLERDEN GELEN CEVAP JSON ÇIKTISIDIR. Örnek Çıktı: [true,"İşlem Yapıldı"]
 // APİ ERİŞİMİNİ KULLANIMA SUNAN YÖNCÜYE TEŞEKKÜR EDERİM.
+// TAMAMEN ÖRNEK OLARAK KODLADIM
 
 $apilinki = 'http://www.yoncu.com/apiler/sunucu/power.php'; // APİ VERİ ALIP GÖNDERME İŞLEMİ BİZ SUNUCU KAPAMA AÇMA İŞLEMİNE VERİ YOLLAYIP ALACAĞIZ
 $apikullanicinumarasi = '2'; // api kullanıcı numaranız
