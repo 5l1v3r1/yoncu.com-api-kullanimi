@@ -15,7 +15,7 @@ $islemturu $_POST['islemturu']; // yapıcağınız işlem türü örneğin resta
 if (isset($_POST["Gonder"])) {
 	
 $veri = curl_init();
-curl_setopt($veri, CURLOPT_URL, ''.$apilinki.''.$apisifresi.''.$sunucunumarasi.''.$islemturu.'');
+curl_setopt($veri, CURLOPT_URL, ''.$apilinki.''.$apikullanicinumarasi.''.$apisifresi.''.$sunucunumarasi.''.$islemturu.'');
 curl_setopt($veri, CURLOPT_HEADER, false);
 curl_setopt($veri, CURLOPT_ENCODING, false);
 curl_setopt($veri, CURLOPT_COOKIESESSION, false);
