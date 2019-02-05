@@ -9,13 +9,13 @@ $apilinki = 'http://www.yoncu.com/apiler/sunucu/power.php'; // APİ VERİ ALIP G
 $apikullanicinumarasi = '2'; // api kullanıcı numaranız
 $apisifresi = 'sifreniz'; // api şifreniz
 $sunucunumarasi = 'örnek 1'; // sunucu numarası yani işlem numarasi
-$islemturu $_POST['islemturu']; // yapıcağınız işlem türü örneğin restart atmak için reset komutunu yollıyabilirsiniz
+$islemturu = $_POST['islemturu']; // yapıcağınız işlem türü örneğin restart atmak için reset komutunu yollıyabilirsiniz
 
 //
 if (isset($_POST["Gonder"])) {
 	
 $veri = curl_init();
-curl_setopt($veri, CURLOPT_URL, ''.$apilinki.''.$apikullanicinumarasi.''.$apisifresi.''.$sunucunumarasi.''.$islemturu.'');
+curl_setopt($veri, CURLOPT_URL, ''.$apilinki.'?id='.$apikullanicinumarasi.'&key='.$apisifresi.'&sid='.$sunucunumarasi.'&is='.$islemturu.'');
 curl_setopt($veri, CURLOPT_HEADER, false);
 curl_setopt($veri, CURLOPT_ENCODING, false);
 curl_setopt($veri, CURLOPT_COOKIESESSION, false);
